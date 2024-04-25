@@ -1,0 +1,33 @@
+spring:
+  servlet:
+    multipart:
+      enabled: 'true'
+      max-request-size: 10MB
+      max-file-size: 10MB
+  firebase:
+    service-account-file: fcm/fcm.json
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "fathi3ayari333@gmail.com"
+    password: naboiqibzaxkyrnw
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+            required: 'true'
+          auth: 'true'
+
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/mae
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: '1000'
+  address: 127.0.0.1
