@@ -18,4 +18,6 @@ private String phone_number;
 private String email;
 private String region;
 private String token;
+private String role;
+private Boolean status;
 }

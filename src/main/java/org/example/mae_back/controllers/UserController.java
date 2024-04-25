@@ -30,6 +30,10 @@ public class UserController {
     public ResponseEntity Login(@RequestBody LoginRequest loginRequest) {
         return userServices.loginService(loginRequest);
     }
+    @GetMapping("/status/{id}")
+    public ResponseEntity CheckStatus(@PathVariable Integer id) {
+        return userServices.checkStatus(id);
+    }
 
 
 }

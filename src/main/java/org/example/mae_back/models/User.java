@@ -25,6 +25,11 @@ public class User  {
     String phone_number;
     String region;
     String token;
+    Boolean status;
+    @JoinColumn(name = "role_id", nullable = false)
+    @JsonManagedReference
+    @ManyToOne()
+    Role role;
 
 
 }

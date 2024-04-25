@@ -1,8 +1,10 @@
 package org.example.mae_back.services;
 
+import org.example.mae_back.data.RoleRepository;
 import org.example.mae_back.data.UserRepository;
 import org.example.mae_back.dto.UserDto;
 import org.example.mae_back.dto_convertor.UserConvertor;
+import org.example.mae_back.models.Role;
 import org.example.mae_back.models.User;
 import org.example.mae_back.requests.LoginRequest;
 import org.example.mae_back.requests.RegistrationRequest;
@@ -20,11 +22,13 @@ public class UserServices  {
 
 
     private final UserRepository userRepository;
+    private final RoleRepository roleRepository;
     private JavaMailSender mailSender;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    public UserServices( JavaMailSender mailSender,UserRepository userRepository, BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UserServices(JavaMailSender mailSender, UserRepository userRepository, BCryptPasswordEncoder bCryptPasswordEncoder, RoleRepository roleRepository) {
         this.userRepository = userRepository;
+        this. roleRepository= roleRepository;
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
         this.mailSender = mailSender;
     }
@@ -47,7 +51,7 @@ public class UserServices  {
 
         User user = new User();
         String encodedPassword;
-
+Role role=roleRepository.getById(2L);
         encodedPassword = bCryptPasswordEncoder.encode(request.getPassword());
         user.setPassword(encodedPassword);
         user.setPhone_number(request.getPhone_number());
@@ -57,8 +61,9 @@ public class UserServices  {
         user.setRegion(request.getRegion());
         user.setGender(request.getGender());
         user.setToken(request.getToken());
+        user.setStatus(false);
+        user.setRole(role);
         userRepository.save(user);
-
         return ResponseEntity.status(200).body(UserConvertor.userToDto(user));
 
     }
@@ -189,5 +194,19 @@ public class UserServices  {
         users.removeIf(user -> user.getId().equals(id));
 
        return users.stream().map(UserConvertor::userToDto).toList();
+    }
+
+    public ResponseEntity checkStatus(Integer id) {
+        Optional<User> user=userRepository.findById(id);
+        Map responseMap = new HashMap<>();
+        if(user.isPresent()){
+            if(user.get().getStatus()){
+                responseMap.put("status","active");
+            }else {responseMap.put("status","inactive");}
+        }else {
+            responseMap.put("status","not found");
+        }
+
+        return ResponseEntity.status(200).body(responseMap);
     }
 }

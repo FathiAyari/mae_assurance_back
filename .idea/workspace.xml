@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8dda22-82ab-419f-a960-1e7d5ecfe120" name="Changes" comment="set up firebase">
-      <change beforePath="$PROJECT_DIR$/target/classes/fcm/fcm.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fcm/fcm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/data/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/firebase/FirebaseInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/firebase/enumerate/Results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/firebase/enumerate/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mae_back/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mae_back/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mae_back/dto_convertor/UserConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/dto_convertor/UserConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mae_back/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/mae_back/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/mae_back/services/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto_convertor/UserConvertor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto_convertor/UserConvertor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/services/UserServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/mae_back/services/UserServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.MaeBackApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fathi Ayari/Desktop/Freelance Projects/Ghada Madiouni/mae_back/mae_back",
+    "last_opened_file_path": "C:/Users/Fathi Ayari/Desktop/Freelance Projects/Ghada Madiouni/mae_back/mae_back/src/main/java/org/example/mae_back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,10 +73,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\java\org\example\mae_back" />
+      <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\java\org\example\mae_back\security" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.mae_back.data" />
+      <recent name="org.example.mae_back.models" />
     </key>
   </component>
   <component name="RunManager">
@@ -87,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714033583194</updated>
       <workItem from="1714033584175" duration="7053000" />
-      <workItem from="1714041843368" duration="1181000" />
+      <workItem from="1714041843368" duration="11466000" />
     </task>
     <task id="LOCAL-00001" summary="set up login and register">
       <option name="closed" value="true" />
@@ -153,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714043006287</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="set up firebase">
+      <option name="closed" value="true" />
+      <created>1714043035599</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714043035599</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
