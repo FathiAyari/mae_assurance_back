@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8dda22-82ab-419f-a960-1e7d5ecfe120" name="Changes" comment="set up login and register">
+    <list default="true" id="9b8dda22-82ab-419f-a960-1e7d5ecfe120" name="Changes" comment="set up firebase">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fcm/fcm.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fcm/fcm.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fcm/fcm.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fcm/fcm.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714033583194</updated>
       <workItem from="1714033584175" duration="7053000" />
-      <workItem from="1714041843368" duration="964000" />
+      <workItem from="1714041843368" duration="1144000" />
     </task>
     <task id="LOCAL-00001" summary="set up login and register">
       <option name="closed" value="true" />
@@ -138,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714042214581</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="set up firebase">
+      <option name="closed" value="true" />
+      <created>1714042836666</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714042836666</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="set up login and register" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up login and register" />
+    <MESSAGE value="set up firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up firebase" />
   </component>
 </project>
