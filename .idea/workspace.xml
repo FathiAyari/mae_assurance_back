@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8dda22-82ab-419f-a960-1e7d5ecfe120" name="Changes" comment="set up login and register">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83232fa0-3d03-4b01-b1de-3658d8b18e68.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83232fa0-3d03-4b01-b1de-3658d8b18e68/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83232fa0-3d03-4b01-b1de-3658d8b18e68/storage_v2/_src_/schema/mae.UaUBAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83232fa0-3d03-4b01-b1de-3658d8b18e68/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83232fa0-3d03-4b01-b1de-3658d8b18e68/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/scaled_Screenshot_20230609-200936.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/MaeBackApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/data/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/NotificationDto$NotificationDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/NotificationDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto$UserDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/dto_convertor/UserConvertor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/models/StringListRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/requests/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/requests/NotificationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/requests/RegistrationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/security/config/mobileSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/security/passwordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/mae_back/services/UserServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/mae_back/MaeBackApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +56,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2faK7f6EiMLBkag0p87S3L8YKbc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.MaeBackApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Fathi Ayari/Desktop/Freelance Projects/Ghada Madiouni/mae_back/mae_back/src/main/java/org/example/mae_back",
+    "last_opened_file_path": "C:/Users/Fathi Ayari/Desktop/Freelance Projects/Ghada Madiouni/mae_back/mae_back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +86,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\java\org\example\mae_back" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\java\org\example\mae_back\security" />
       <recent name="C:\Users\Fathi Ayari\Desktop\Freelance Projects\Ghada Madiouni\mae_back\mae_back\src\main\resources" />
@@ -85,7 +117,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714033583194</updated>
-      <workItem from="1714033584175" duration="6704000" />
+      <workItem from="1714033584175" duration="7053000" />
+      <workItem from="1714041843368" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="set up login and register">
       <option name="closed" value="true" />
@@ -119,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714040936916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="set up login and register">
+      <option name="closed" value="true" />
+      <created>1714041284664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041284664</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
